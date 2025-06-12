@@ -8,7 +8,7 @@ from io import BytesIO
 st.set_page_config(page_title="Gerador de Etiquetas WMS", layout="centered")
 st.title("Gerador de Etiquetas WMS")
 st.write(
-    "Envie seu arquivo Excel com a coluna de endereços completos, clique em 'Gerar etiquetas' e baixe o PDF pronto para impressão na Zebra!"
+    "Gerador de Etiquetas 2.0"
 )
 
 uploaded_file = st.file_uploader("Selecione o arquivo Excel (.xlsx)", type="xlsx")
